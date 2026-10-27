@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DeviceManagement4.ProjectorRemote" Collapsed="true">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteDevices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceManagement4.AirConditionerRemote" Collapsed="true">
+    <Position X="9" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAABAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>ConcreteDevices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceManagement4.WirelessMicrophone" Collapsed="true">
+    <Position X="10.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAEAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteDevices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceManagement4.DeviceStatusChangedEventArgs" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAACAAAEAAAAAAAACA=</HashCode>
+      <FileName>EventArguments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceManagement4.DeviceAlertEventArgs" Collapsed="true">
+    <Position X="9" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAIAQAAAA=</HashCode>
+      <FileName>EventArguments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceManagement4.InvalidDeviceReadingException" Collapsed="true">
+    <Position X="12.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceManagement4.Program" Collapsed="true">
+    <Position X="14.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceManagement4.ConsoleNotificationService" Collapsed="true">
+    <Position X="5.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subscribers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceManagement4.DeviceAuditLogger" Collapsed="true">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAIAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subscribers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceManagement4.MaintenanceService" Collapsed="true">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAEAAAABAAAAA=</HashCode>
+      <FileName>Subscribers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceManagement4.FilteredAlertSubscriber" Collapsed="true">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAEAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subscribers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceManagement4.TeachingDevice" Collapsed="true">
+    <Position X="10.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAAAABAAAAAQAQUQAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>TeachingDevice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DeviceManagement4.DeviceStatus" Collapsed="true">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAgAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DeviceManagement4.AlertSeverity" Collapsed="true">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIEAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="DeviceManagement4.AlertFilter" Collapsed="true">
+    <Position X="14.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subscribers.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
